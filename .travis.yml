@@ -1,4 +1,9 @@
-git:
-  depth: 3
-  
-NPM Token: xxxxxxxxxxxxx
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - echo "Test travis ci"
